@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/montythakur9870/Personal-Portfolio/main/src/assets/Narendra_Singh.pdf";
+  "https://github.com/Montythakur9870/Personal_Portfolio-main/blob/main/src/assets/Narendra_Singh.pdf";
 
 function Resume() {
   const [width, setWidth] = useState(1200);
